@@ -1,0 +1,64 @@
+p{
+
+    color: #7ac0db ; 
+  
+  }
+  
+  p.vermelho{
+  
+    color:red;
+  
+  } 
+  
+  .azul{
+  
+    color:rgb(0,0,255);
+  
+  }
+  
+  .bgciano{
+  
+    background-color: #7ac0db	;
+  
+  }
+  
+  h1{
+  
+    color: #7ac0db	 ; 
+  
+  }
+  
+  h1.vermelho{
+  
+    color:red;
+  
+  } 
+  
+  .azul{
+  
+    color:rgb(0,0,255);
+  
+  }
+  
+  .bgciano{
+  
+    background-color: #7ac0db	;
+  
+  }
+  
+
+  .circle {
+    background-color: #7ac0db;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+  }
+
+  .circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

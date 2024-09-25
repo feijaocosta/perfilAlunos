@@ -1,0 +1,89 @@
+  body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 4px solid #007BFF;
+            padding-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #007BFF;
+        }
+        .header h2 {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #555;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h3 {
+            font-size: 20px;
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .section p {
+            margin: 10px 0;
+            line-height: 1.8;
+            color: #555;
+        }
+        .experience {
+            margin-bottom: 15px;
+        }
+        .experience h4 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .experience .position {
+            font-style: italic;
+            color: #777;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills li {
+            list-style: none;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            margin: 0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #007BFF;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .container:hover {
+            transform: scale(1.01);
+            transition: all 0.3s ease-in-out;
+        }
